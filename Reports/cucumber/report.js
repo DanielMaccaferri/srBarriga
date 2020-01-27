@@ -55,71 +55,25 @@ formatter.match({
   "location": "CriarUsuarioSteps.que_eu_acesse_o_site()"
 });
 formatter.result({
-  "duration": 7866287100,
+  "duration": 12404277900,
   "status": "passed"
 });
 formatter.match({
   "location": "CriarUsuarioSteps.eu_preencho_dados_válidos()"
 });
 formatter.result({
-  "duration": 1261140700,
+  "duration": 1380954000,
   "status": "passed"
 });
 formatter.match({
   "location": "CriarUsuarioSteps.o_usuario_e_cadastrado_com_sucesso()"
 });
 formatter.result({
-  "duration": 123988500,
+  "duration": 31635600,
   "status": "passed"
 });
-formatter.scenario({
-  "line": 17,
-  "name": "Cadastrar usuario invalido",
-  "description": "",
-  "id": "cadastrar-usuário;cadastrar-usuario-invalido",
-  "type": "scenario",
-  "keyword": "Cenario",
-  "tags": [
-    {
-      "line": 16,
-      "name": "@cadastroinvalido"
-    }
-  ]
-});
-formatter.step({
-  "line": 18,
-  "name": "que eu acesse o site",
-  "keyword": "Dado "
-});
-formatter.step({
-  "line": 19,
-  "name": "eu preencho com dados inválidos",
-  "keyword": "Quando "
-});
-formatter.step({
-  "line": 20,
-  "name": "o usuário não é cadastrado.",
-  "keyword": "Então "
-});
-formatter.match({
-  "location": "CriarUsuarioSteps.que_eu_acesse_o_site()"
-});
-formatter.result({
-  "duration": 405500900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "CriaCadastroInvalidoSteps.eu_preencho_com_dados_inválidos()"
-});
-formatter.result({
-  "duration": 56900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "CriaCadastroInvalidoSteps.o_usuário_não_é_cadastrado()"
-});
-formatter.result({
-  "duration": 16000,
+formatter.after({
+  "duration": 296755100,
   "status": "passed"
 });
 });
