@@ -9,7 +9,7 @@ import cucumber.api.Scenario;
 
 public class Screenshoot {
 
-	public static void screenshoot(Scenario cenario) {
+	public static void screenshot(Scenario cenario) {
 		if(cenario.isFailed()) {
 			final byte[] screenshot = ((TakesScreenshot)Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
 			cenario.embed(screenshot, "image/png");
